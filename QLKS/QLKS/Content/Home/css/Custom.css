@@ -1,0 +1,6 @@
+﻿body {
+}
+#gtco-header .form-wrap .tab-content .form-control {
+    color: #000 !important;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}

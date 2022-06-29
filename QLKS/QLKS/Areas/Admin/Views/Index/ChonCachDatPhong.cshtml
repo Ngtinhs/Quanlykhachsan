@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Chọn cách đặt phòng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Index")">Admin</a>
+    </li>
+    <li class="breadcrumb-item active">Danh sách đặt phòng<li>
+</ol>
+<div class="row">
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-warning o-hidden h-100">
+            <div class="card-body">
+                <div class="mr-5">Danh sách đặt phòng trước</div>
+            </div>
+            <a class="card-footer text-white clearfix small z-1" href="@Url.Action("List", "PhieuDatPhong")">
+                <span class="float-left">Nhận phòng</span>
+                <span class="float-right">
+                    <i class="fa fa-angle-right"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
